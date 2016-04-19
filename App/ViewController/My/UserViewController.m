@@ -18,6 +18,7 @@
     AppDelegate *delegate=[UIApplication sharedApplication].delegate;
     delegate.myTabar.hidden=YES;
     
+    
 }
 
 - (void)viewDidLoad {
