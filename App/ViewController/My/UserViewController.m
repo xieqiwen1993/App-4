@@ -17,6 +17,7 @@
     //即将出现时隐藏tabbar
     AppDelegate *delegate=[UIApplication sharedApplication].delegate;
     delegate.myTabar.hidden=YES;
+    
 }
 
 - (void)viewDidLoad {
