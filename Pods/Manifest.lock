@@ -1,0 +1,93 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (2.10.2)
+  - BVTKit (1.0.0)
+  - GTMBase64 (1.0.0)
+  - JSONModel (1.0.2)
+  - MOBFoundation (1.5.1)
+  - NSObject+AFNetworking (1.0.0)
+  - pop (1.0.7)
+  - RegexKitLite (1.0.0)
+  - SFHFKeyChainUtils (1.0.0)
+  - ShareSDK3 (3.2.5):
+    - ShareSDK3/ShareSDK (= 3.2.5)
+  - ShareSDK3/ShareSDK (3.2.5)
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.2.5)
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (3.2.5)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.2.5)
+  - ShareSDK3/ShareSDKUI (3.2.5)
+  - TTTAttributedLabel (1.13.3)
+  - UIImage (1.0.0)
+  - WebViewJavascriptBridge (4.1.4)
+
+DEPENDENCIES:
+  - AFNetworking (= 2.5.3)
+  - BaiduMapKit
+  - BVTKit (from `BVTKit/`)
+  - GTMBase64 (from `GTMBase64/`)
+  - JSONModel (= 1.0.2)
+  - MOBFoundation
+  - NSObject+AFNetworking (from `NSObject+AFNetworking`)
+  - pop (= 1.0.7)
+  - RegexKitLite (from `RegexKitLite/`)
+  - SFHFKeyChainUtils (from `SFHFKeyChainUtils/`)
+  - ShareSDK3
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - ShareSDK3/ShareSDKUI
+  - TTTAttributedLabel (= 1.13.3)
+  - UIImage (from `UIImage/`)
+  - WebViewJavascriptBridge (= 4.1.4)
+
+EXTERNAL SOURCES:
+  BVTKit:
+    :path: BVTKit/
+  GTMBase64:
+    :path: GTMBase64/
+  NSObject+AFNetworking:
+    :path: NSObject+AFNetworking
+  RegexKitLite:
+    :path: RegexKitLite/
+  SFHFKeyChainUtils:
+    :path: SFHFKeyChainUtils/
+  UIImage:
+    :path: UIImage/
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  BaiduMapKit: b1706a062597c70ec62a0cca93212cba1d3017e1
+  BVTKit: 87fe95743e0aeb796dc342e075e92f30ecccd673
+  GTMBase64: da0748c40a30908bf2348dd441d0ecc63bf1dff8
+  JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
+  MOBFoundation: 79efc94db961fe5a08cf32de69166f6a29a3b2b5
+  NSObject+AFNetworking: 19abd29fadab411cef5471ace4080b4539b27070
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  RegexKitLite: d82ca5413b8cb7a6f3641f779ab50f156fe2de30
+  SFHFKeyChainUtils: 2256f4c61e969b45c15c45e1185e390f80bc6c8b
+  ShareSDK3: ccdd8ec971044703e7722e19c2f3b38fb03775e2
+  TTTAttributedLabel: 6f3174aef8e738f44dff97c2eb7d8184f6ab6277
+  UIImage: 0e32d0538720286417397f4d83bac99dac477408
+  WebViewJavascriptBridge: f10ac16f2cd3adf2b941bd79477c55a8f6e01044
+
+COCOAPODS: 0.39.0

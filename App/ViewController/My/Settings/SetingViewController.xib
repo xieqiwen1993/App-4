@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetingViewController">
+            <connections>
+                <outlet property="aboutBtn" destination="b9t-Xd-pkg" id="MQn-AY-mBx"/>
+                <outlet property="quitBtn" destination="vUa-5m-x6p" id="6GO-Bm-hrq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9t-Xd-pkg">
+                    <rect key="frame" x="0.0" y="111" width="375" height="47"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="0i2-Vx-SQV"/>
+                    </constraints>
+                    <state key="normal" title="关于"/>
+                    <connections>
+                        <action selector="aboutClick:" destination="-1" eventType="touchUpInside" id="rI2-8D-XCy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUa-5m-x6p">
+                    <rect key="frame" x="84" y="210" width="206" height="39"/>
+                    <color key="backgroundColor" red="0.95214332459999995" green="0.43445287389999998" blue="0.10313613689999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="JAJ-i6-2jp"/>
+                    </constraints>
+                    <state key="normal" title="退出当前账号">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quitClick:" destination="-1" eventType="touchUpInside" id="o6r-eW-0EX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vUa-5m-x6p" firstAttribute="top" secondItem="b9t-Xd-pkg" secondAttribute="bottom" constant="52" id="7Rx-tB-6Sy"/>
+                <constraint firstAttribute="trailing" secondItem="vUa-5m-x6p" secondAttribute="trailing" constant="85" id="DlF-n9-vWK"/>
+                <constraint firstItem="b9t-Xd-pkg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="111" id="VcY-UT-9Y5"/>
+                <constraint firstItem="vUa-5m-x6p" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="84" id="oHI-eU-YPu"/>
+                <constraint firstItem="b9t-Xd-pkg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oS7-q7-E4v"/>
+                <constraint firstAttribute="trailing" secondItem="b9t-Xd-pkg" secondAttribute="trailing" id="x9C-7F-Hxb"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

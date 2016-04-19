@@ -1,0 +1,9 @@
+{
+  "name": "NSObject+AFNetworking",
+  "version": "1.0.0",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": "**/*.{h,m}",
+  "requires_arc": true
+}

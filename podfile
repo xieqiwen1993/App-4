@@ -1,0 +1,32 @@
+platform:ios, '6.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod 'AFNetworking', '2.5.3'
+pod 'JSONModel', '1.0.2'
+pod 'pop', '1.0.7'
+pod 'TTTAttributedLabel', '1.13.3'
+pod 'WebViewJavascriptBridge', '4.1.4'
+pod 'BaiduMapKit' #百度地图SDK
+
+# 主模块(必须)
+pod 'ShareSDK3'
+
+pod 'MOBFoundation'
+pod 'ShareSDK3/ShareSDKUI'
+pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+
+
+pod 'BVTKit', :path => "BVTKit/"
+pod 'GTMBase64', :path => "GTMBase64/"
+pod 'RegexKitLite', :path => "RegexKitLite/"
+pod 'UIImage', :path => "UIImage/"
+pod 'SFHFKeyChainUtils', :path => "SFHFKeyChainUtils/"
+pod 'NSObject+AFNetworking', :path => "NSObject+AFNetworking"
+
+post_install do |installer|
+    installer.pods_project.build_configurations.each do |config|
+        config.build_settings['SYMROOT'] = '${SRCROOT}/../build'
+    end
+end

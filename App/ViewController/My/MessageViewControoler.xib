@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessageViewControoler">
+            <connections>
+                <outlet property="deleteBtn" destination="9Z6-kf-MT0" id="psv-HB-sKD"/>
+                <outlet property="readBtn" destination="UW8-o5-V0X" id="VT3-wi-JTJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UW8-o5-V0X">
+                    <rect key="frame" x="0.0" y="617" width="181" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="IZX-g2-1oN"/>
+                        <constraint firstAttribute="width" constant="181" id="Qq9-gC-0im"/>
+                    </constraints>
+                    <state key="normal" title="标记为已读">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="readClick:" destination="-1" eventType="touchUpInside" id="ze2-bn-Oba"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Z6-kf-MT0">
+                    <rect key="frame" x="189" y="617" width="186" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="CkH-RM-htt"/>
+                        <constraint firstAttribute="width" constant="186" id="rzy-ix-ogd"/>
+                    </constraints>
+                    <state key="normal" title="删除">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="deleteClcik:" destination="-1" eventType="touchUpInside" id="SIe-vk-tr7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="UW8-o5-V0X" secondAttribute="bottom" id="6qX-6X-Pw5"/>
+                <constraint firstAttribute="bottom" secondItem="9Z6-kf-MT0" secondAttribute="bottom" id="dkL-SS-crr"/>
+                <constraint firstAttribute="trailing" secondItem="9Z6-kf-MT0" secondAttribute="trailing" id="hd6-6q-EC8"/>
+                <constraint firstItem="UW8-o5-V0X" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qlu-HR-bu3"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="343.5" y="224.5"/>
+        </view>
+    </objects>
+</document>
